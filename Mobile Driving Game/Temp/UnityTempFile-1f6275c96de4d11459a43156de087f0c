@@ -1,17 +1,32 @@
 /target:library
-/out:Temp/Assembly-CSharp.dll
+/out:Temp/Unity.VisualScripting.State.dll
 /nowarn:0169
 /nowarn:0649
-/refout:Temp/Assembly-CSharp.dll.ref
+/refout:Temp/Unity.VisualScripting.State.dll.ref
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:8.0
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
@@ -202,24 +217,6 @@
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
-/reference:Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
-/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.Timeline.dll
-/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -326,5 +323,34 @@
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
-Assets\Scripts\FollowPlayer.cs
-Assets\Scripts\PlayerController.cs
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\AnyState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\FlowState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\FlowStateTransition.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\Framework\Graph\HasStateGraph.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\INesterState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\INesterStateTransition.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\IState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\IStateDebugData.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\IStateTransition.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\IStateTransitionDebugData.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\NesterState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\NesterStateTransition.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\OnEnterState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\OnExitState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\Properties\AssemblyInfo.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\State.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateEnterReason.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateEventHooks.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateExitReason.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateGraph.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateGraphAsset.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateGraphData.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateMachine.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateTransition.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\StateUnit.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\SuperState.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\TriggerStateTransition.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\Units\GetStateGraph.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\Units\GetStateGraphs.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\Units\SetStateGraph.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.State\Units\StateGraphContainerType.cs"

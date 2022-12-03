@@ -326,4 +326,13 @@
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
+Assets\Scripts\CountdownTimer.cs
+Assets\Scripts\Enemy.cs
+Assets\Scripts\MouseHover.cs
+Assets\Scripts\Obstacle.cs
 Assets\Scripts\PlayerController.cs
+Assets\Scripts\PlayerTriggers.cs
+Assets\Scripts\RoadSpawner.cs
+Assets\Scripts\SpawnManager.cs
+Assets\Scripts\WinLose.cs
+"Assets\eretichable Technologies\Revolver Gun (Low Poly)\Scripts\Gun_rotation.cs"

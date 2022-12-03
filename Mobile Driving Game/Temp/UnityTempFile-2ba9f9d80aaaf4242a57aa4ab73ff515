@@ -1,30 +1,17 @@
 /target:library
-/out:Temp/Unity.Timeline.dll
+/out:Temp/Assembly-CSharp.dll
 /nowarn:0169
 /nowarn:0649
-/refout:Temp/Unity.Timeline.dll.ref
+/refout:Temp/Assembly-CSharp.dll.ref
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:8.0
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
-/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
-/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
@@ -215,6 +202,24 @@
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -321,76 +326,13 @@
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Activation\ActivationMixerPlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Activation\ActivationPlayableAsset.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Activation\ActivationTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Animation\AnimationOutputWeightProcessor.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Animation\AnimationPlayableAsset.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Animation\AnimationPreviewUpdateCallback.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Animation\AnimationTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Animation\ICurvesOwner.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\AssetUpgrade\AnimationPlayableAssetUpgrade.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\AssetUpgrade\AnimationTrackUpgrade.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\AssetUpgrade\ClipUpgrade.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\AssetUpgrade\TimelineUpgrade.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\AssetUpgrade\TrackUpgrade.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Attributes\TimelineHelpURLAttribute.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Attributes\TrackColorAttribute.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Audio\AudioClipProperties.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Audio\AudioMixerProperties.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Audio\AudioPlayableAsset.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Audio\AudioTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\ClipCaps.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Control\ControlPlayableAsset.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Control\ControlTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\DiscreteTime.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Evaluation\InfiniteRuntimeClip.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Evaluation\IntervalTree.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Evaluation\RuntimeClip.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Evaluation\RuntimeClipBase.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Evaluation\RuntimeElement.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Evaluation\ScheduleRuntimeClip.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\IMarker.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\INotificationOptionProvider.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\Marker.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\MarkerList.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\MarkerTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\SignalTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\Signals\CustomSignalEventDrawer.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\Signals\SignalAsset.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\Signals\SignalEmitter.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Events\Signals\SignalReceiver.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Extensions\TrackExtensions.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\GroupTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\ILayerable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\ActivationControlPlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\BasicScriptPlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\DirectorControlPlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\ITimeControl.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\NotificationFlags.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\ParticleControlPlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\PrefabControlPlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\TimeControlPlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Playables\TimeNotificationBehaviour.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Properties\AssemblyInfo.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Scripting\PlayableTrack.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Timeline.deprecated.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\TimelineAsset.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\TimelineAsset_CreateRemove.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\TimelineAttributes.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\TimelineClip.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\TimelinePlayable.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\TrackAsset.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\AnimationPreviewUtilities.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\AnimatorBindingCache.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\Extrapolation.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\FrameRate.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\HashUtility.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\IPropertyCollector.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\IPropertyPreview.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\NotificationUtilities.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\TimeUtility.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\TimelineClipExtensions.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\TimelineCreateUtilities.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\TimelineUndo.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.timeline@1.6.3\Runtime\Utilities\WeightUtility.cs"
+Assets\Scripts\CountdownTimer.cs
+Assets\Scripts\Enemy.cs
+Assets\Scripts\MainMenu.cs
+Assets\Scripts\Obstacle.cs
+Assets\Scripts\PlayerController.cs
+Assets\Scripts\PlayerTriggers.cs
+Assets\Scripts\RoadSpawner.cs
+Assets\Scripts\SpawnManager.cs
+Assets\Scripts\WinLose.cs
+"Assets\eretichable Technologies\Revolver Gun (Low Poly)\Scripts\Gun_rotation.cs"

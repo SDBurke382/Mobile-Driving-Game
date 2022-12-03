@@ -9,6 +9,24 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:8.0
+/reference:Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
@@ -202,24 +220,6 @@
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
-/reference:Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
-/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.Timeline.dll
-/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -326,4 +326,13 @@
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
+Assets\Scripts\CountdownTimer.cs
+Assets\Scripts\Enemy.cs
+Assets\Scripts\MouseHover.cs
+Assets\Scripts\Obstacle.cs
 Assets\Scripts\PlayerController.cs
+Assets\Scripts\PlayerTriggers.cs
+Assets\Scripts\RoadSpawner.cs
+Assets\Scripts\SpawnManager.cs
+Assets\Scripts\WinLose.cs
+"Assets\eretichable Technologies\Revolver Gun (Low Poly)\Scripts\Gun_rotation.cs"

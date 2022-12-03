@@ -1,14 +1,20 @@
 /target:library
-/out:Temp/Unity.VisualStudio.Editor.dll
+/out:Temp/Unity.VisualScripting.Shared.Editor.dll
 /nowarn:0169
 /nowarn:0649
-/refout:Temp/Unity.VisualStudio.Editor.dll.ref
+/refout:Temp/Unity.VisualScripting.Shared.Editor.dll.ref
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:8.0
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 /reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 /reference:Library/ScriptAssemblies/UnityEditor.UI.dll
 /reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
@@ -20,8 +26,15 @@
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+/reference:"C:/Users/teamb/OneDrive/Documents/Mobile-Driving-Game/Mobile Driving Game/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
 /reference:"C:/Users/teamb/OneDrive/Documents/Adventures in Brickopolis/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
@@ -318,43 +331,4 @@
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\AssemblyInfo.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\AsyncOperation.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Cli.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Discovery.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\FileUtility.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Image.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\KnownAssemblies.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\Deserializer.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\ExceptionEventArgs.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\Message.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\MessageEventArgs.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\MessageType.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\Messenger.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\Serializer.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\TcpClient.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\TcpListener.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Messaging\UdpSocket.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\ProjectGeneration\AssemblyNameProvider.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\ProjectGeneration\FileIOProvider.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\ProjectGeneration\GUIDProvider.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\ProjectGeneration\ProjectGeneration.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\ProjectGeneration\ProjectGenerationFlag.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\ProjectGeneration\ProjectProperties.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\SessionSettings.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Solution.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\SolutionParser.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\SolutionProjectEntry.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\SolutionProperties.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Symbols.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Testing\TestAdaptor.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Testing\TestResultAdaptor.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Testing\TestRunnerApiListener.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Testing\TestRunnerCallbacks.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\Testing\TestStatusAdaptor.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\UnityInstallation.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\UsageUtility.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\VersionPair.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\VisualStudioEditor.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\VisualStudioInstallation.cs"
-"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12\Editor\VisualStudioIntegration.cs"
+"C:\Users\teamb\OneDrive\Documents\Mobile-Driving-Game\Mobile Driving Game\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Shared\EmptyGraphWindow.cs"
