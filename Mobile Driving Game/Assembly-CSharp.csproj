@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Obstacle.cs" />
     <Compile Include="Assets\eretichable Technologies\Revolver Gun (Low Poly)\Scripts\Gun_rotation.cs" />
     <Compile Include="Assets\Scripts\AccelerometerInput.cs" />
+    <Compile Include="Assets\Scripts\TargetIndicator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
