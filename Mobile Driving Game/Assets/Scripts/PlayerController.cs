@@ -10,7 +10,12 @@ public class PlayerController : MonoBehaviour
     public Rigidbody playerRb;
     private AudioSource source;
     public SpawnManager spawnManager;
+    public float smooth = 0.4f;
     
+    public float newRotation;
+    public float sensitivity = 6;
+    private Vector3 currentAcceleration, initialAcceleration;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +23,8 @@ public class PlayerController : MonoBehaviour
         playerRb = GetComponent<Rigidbody>();
         source = GetComponent<AudioSource>();
         source.Play();
+        initialAcceleration = Input.acceleration;
+        currentAcceleration = Vector3.zero;
     }
 
     // Update is called once per frame
@@ -30,8 +37,11 @@ public class PlayerController : MonoBehaviour
         //Rotates the vehicle based on input
         transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime * horizontalInput);
 
-        
-         
+        currentAcceleration = Vector3.Lerp(currentAcceleration, Input.acceleration - initialAcceleration, Time.deltaTime / smooth);
+
+        newRotation = Mathf.Clamp(currentAcceleration.x * sensitivity, -1, 1);
+        transform.Rotate(0, 0, -newRotation);
+
 
 
     }
