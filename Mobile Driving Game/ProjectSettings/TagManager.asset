@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Obstacle
   - SpawnTrigger
+  - Escape Point
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,8 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         MainMenuButton();
+        StartButton();
+        QuitButton();
     }
 
     public void StartButton()

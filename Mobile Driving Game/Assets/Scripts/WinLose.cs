@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WinLose : MonoBehaviour
 {
+    
     private bool gameOver;
 
     // Start is called before the first frame update
