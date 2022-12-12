@@ -17,21 +17,16 @@ public class MainMenu : MonoBehaviour
         QuitButton();
     }
 
+    private void MainMenuButton()
+    {
+        throw new NotImplementedException();
+    }
+
     public void StartButton()
     {
         
         SceneManager.LoadScene("Mobile Level");
-    }
-
-    public void MainMenuButton()
-    {        
-        MainMenu.SetActive(true);        
-    }
-
-    private static void SetActive(bool v)
-    {
-        throw new NotImplementedException();
-    }
+    }    
 
     public void QuitButton()
     {

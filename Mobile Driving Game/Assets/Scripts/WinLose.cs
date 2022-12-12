@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WinLose : MonoBehaviour
 {
-    
+    public Text winText;
+    public Text loseText;
     private bool gameOver;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame
@@ -22,9 +24,9 @@ public class WinLose : MonoBehaviour
     public void Win()
     {
         if (gameOver)
-        {
-            Debug.Log("You caught the theif");
+        {                   
             gameOver = true;
+            winText.text = "You caught the thief";
         }
         
     }
@@ -32,9 +34,9 @@ public class WinLose : MonoBehaviour
     public void Lose()
     {
         if (!gameOver)
-        {
-            Debug.Log("He got away");
+        {           
             gameOver = true;
+            loseText.text = "He got away";
         }
        
     }
